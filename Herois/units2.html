@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+
+    <title>Conexão CEEP - 2025</title>
+</head>
+<header>
+        <nav class="Texuto">
+            <ul>
+                <li><a href="/Units/units.html">Units</a></li>
+                <li><a href="/mapa/mapas-beginner.html">Mapas</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Bloons/balões.html">Bloons</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <div class="container">
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Quincy</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/6/60/BTD6_QuincyPortrait.png/1200px-BTD6_QuincyPortrait.png"
+                        alt="hero image" class="model">
+                    <div class="details">
+                        <p>Orgulhoso, forte e inteligente, Quincy usa seu arco para realizar feitos de habilidade surpreendente.</p>
+                    </div>
+                    <audio id="MacacoQuincy">
+                        <source src="/Audio/QuincyVL.mp3" type="audio/mpeg">
+                        SEu navegador é uma bosta!
+                    </audio>
+                    <button id="tocarSOm1">
+                        🎈
+                    </button>
+                    <script>
+                        const Quincy = document.getElementById('MacacoQuincy');
+                        const botaoTocarSomQ = document.getElementById('tocarSOm1');
+                        botaoTocarSomQ.addEventListener('click', function() {Quincy.play();});
+                    </script>
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Gwendolin</p>
+                    <img src="https://www.bloonswiki.com/images/0/01/BTD6_GwendolinPortrait.png?version=138ef7b6a05bcb75904e0f020ba889f1"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Gwendolin acredita que ainda não houve um problema Bloon que não pudesse ser resolvido com fogo. Muito fogo.</p>
+                            <audio id="MacacoGwen">
+                                <source src="/Audio/GwenVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm2">
+                                🎈
+                            </button>
+                            <script>
+                                const Gwen = document.getElementById('MacacoGwen');
+                                const botaoTocarSomG = document.getElementById('tocarSOm2');
+                                botaoTocarSomG.addEventListener('click', function() {Gwen.play();});
+                            </script>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Striker Jones</p>
+                    <img src="https://www.bloonswiki.com/images/e/e9/BTD6_StrikerJonesPortrait.png?version=9aa33901f506a23fd5062c42b3e0050e"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Um comandante forte que usa seu conhecimento de combate de longo alcance para aumentar muito o poder dos explosivos.</p>
+                            <audio id="MacacoJones">
+                                <source src="/Audio/StrikerVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm3">
+                                🎈
+                            </button>
+                            <script>
+                                const Jones = document.getElementById('MacacoJones');
+                                const botaoTocarSomJ = document.getElementById('tocarSOm3');
+                                botaoTocarSomJ.addEventListener('click', function() {Jones.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Obyn Greenfoot</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/1/1e/BTD6_ObynGreenFoot.png/1200px-BTD6_ObynGreenFoot.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Comandando os poderes da natureza, Obyn pode atravessar obstáculos sólidos com seu ataque de lobo espiritual.</p>
+                            <audio id="MacacoObyn">
+                                <source src="/Audio/ObynVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm4">
+                                🎈
+                            </button>
+                            <script>
+                                const Obyn = document.getElementById('MacacoObyn');
+                                const botaoTocarSomO = document.getElementById('tocarSOm4');
+                                botaoTocarSomO.addEventListener('click', function() {Obyn.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Etienne</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/3/3d/BTD6_EtiennePortrait.png/1200px-BTD6_EtiennePortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Usando alta tecnologia pode perseguir os Bloons onde quer que eles vão com seu drone controlado remotamente.</p>
+                            <audio id="MacacoEtienne">
+                                <source src="/Audio/EtienneVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm5">
+                                🎈
+                            </button>
+                            <script>
+                                const Etienne = document.getElementById('MacacoEtienne');
+                                const botaoTocarSomET = document.getElementById('tocarSOm5');
+                                botaoTocarSomET.addEventListener('click', function() {Etienne.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Geraldo</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/5/56/BTD6_GeraldoPortrait.png/1200px-BTD6_GeraldoPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Geraldo, o lojista, vende uma seleção de itens úteis e atinge Bloons com seu ataque de raio.</p>
+                            <audio id="MacacoGeraldo">
+                                <source src="/Audio/GeraldoVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm6">
+                                🎈
+                            </button>
+                            <script>
+                                const Geraldo = document.getElementById('MacacoGeraldo');
+                                const botaoTocarSomGE = document.getElementById('tocarSOm6');
+                                botaoTocarSomGE.addEventListener('click', function() {Geraldo.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Benjamin</p>
+                    <img src="https://www.bloonswiki.com/images/6/6b/BTD6_BenjaminPortrait.png?version=f2362e147227924ac5d32531173aa5e0"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Usando suas habilidades de hacker de elite, Benjamin pode gerar dinheiro extra para a causa.</p>
+                            <audio id="MacacoBenjamin">
+                                <source src="/Audio/BenjaminVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm7">
+                                🎈
+                            </button>
+                            <script>
+                                const Benjamin = document.getElementById('MacacoBenjamin');
+                                const botaoTocarSomBEN = document.getElementById('tocarSOm7');
+                                botaoTocarSomBEN.addEventListener('click', function() {Benjamin.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Pat Fusty</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/a/ad/BTD6_PatFustyPortrait.png/640px-BTD6_PatFustyPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Um macaco enorme, de força extraordinária. Seu tamanho e poder únicos são um grande trunfo na guerra contra Bloons.</p>
+                            <audio id="MacacoPat">
+                                <source src="/Audio/Gurila.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm8">
+                                🎈
+                            </button>
+                            <script>
+                                const Pat = document.getElementById('MacacoPat');
+                                const botaoTocarSomPAT = document.getElementById('tocarSOm8');
+                                botaoTocarSomPAT.addEventListener('click', function() {Pat.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Adora</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/7/7b/BTD6_AdoraPortrait.png/1200px-BTD6_AdoraPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>A devoção de Adora a compele a derrotar Bloons com vingança furiosa.</p>
+                            <audio id="MacacoAdora">
+                                <source src="/Audio/AdoraVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm9">
+                                🎈
+                            </button>
+                            <script>
+                                const Adora = document.getElementById('MacacoAdora');
+                                const botaoTocarSomA = document.getElementById('tocarSOm9');
+                                botaoTocarSomA.addEventListener('click', function() {Adora.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Admiral Brickell</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/a/ac/BTD6_AdmiralBrickellPortrait.png/1200px-BTD6_AdmiralBrickellPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Comande todos os seus Macacos aquáticos para uma vitória decisiva. É preciso água para posicionar.</p>
+                            <audio id="MacacoBrickell">
+                                <source src="/Audio/BrickellVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm10">
+                                🎈
+                            </button>
+                            <script>
+                                const Brickell = document.getElementById('MacacoBrickell');
+                                const botaoTocarSomBR = document.getElementById('tocarSOm10');
+                                botaoTocarSomBR.addEventListener('click', function() {Brickell.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Sauda</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/1/12/BTD6_SaudaPortrait.png/640px-BTD6_SaudaPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Com uma fúria calma, Sauda pode cortar Bloons com suas espadas gêmeas afiadas.</p>
+                            <audio id="MacacoSauda">
+                                <source src="/Audio/SaudaVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm11">
+                                🎈
+                            </button>
+                            <script>
+                                const Sauda = document.getElementById('MacacoSauda');
+                                const botaoTocarSomS = document.getElementById('tocarSOm11');
+                                botaoTocarSomS.addEventListener('click', function() {Sauda.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Corvus</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/0/0b/BTD6_CorvusPortrait.png/1200px-BTD6_CorvusPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>enfraquece Bloons próximos para coletar Mana e canalizar 
+                            energias poderosas por meio de seu companheiro Espírito.</p>
+                            <audio id="MacacoCorvus">
+                                <source src="/Audio/CorvusVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm12">
+                                🎈
+                            </button>
+                            <script>
+                                const Corvus = document.getElementById('MacacoCorvus');
+                                const botaoTocarSomC = document.getElementById('tocarSOm12');
+                                botaoTocarSomC.addEventListener('click', function() {Corvus.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Ezili</p>
+                    <img src="https://www.bloonswiki.com/images/e/e2/BTD6_EziliPortrait.png?version=723c943487bed7e573a121bd2a2f529e"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Ezili é um portador de artes das trevas e manipulador de Bloons. Cuidado.</p>
+                            <audio id="MacacoEzili">
+                                <source src="/Audio/EziliVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm13">
+                                🎈
+                            </button>
+                            <script>
+                                const Ezili = document.getElementById('MacacoEzili');
+                                const botaoTocarSomE = document.getElementById('tocarSOm13');
+                                botaoTocarSomE.addEventListener('click', function() {Ezili.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Psi</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/5/5d/BTD6_PsiPortrait.png/1200px-BTD6_PsiPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Uma criança macaco talentosa, Psi usa apenas o poder da mente para destruir Bloons de dentro para fora.</p>
+                            <audio id="MacacoPsi">
+                                <source src="/Audio/PsiVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm14">
+                                🎈
+                            </button>
+                            <script>
+                                const Psi= document.getElementById('MacacoPsi');
+                                const botaoTocarSomP = document.getElementById('tocarSOm14');
+                                botaoTocarSomP.addEventListener('click', function() {Psi.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Captain Churchill</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/1/1a/BTD6_CaptainChurchillPortrait.png/1200px-BTD6_CaptainChurchillPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Em seu tanque de batalha blindado, o Capitão é uma potência sem frescuras no campo de batalha.</p>
+                            <audio id="MacacoChurchill">
+                                <source src="/Audio/CapitãoVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm15">
+                                🎈
+                            </button>
+                            <script>
+                                const Churchill = document.getElementById('MacacoChurchill');
+                                const botaoTocarSomCAP = document.getElementById('tocarSOm15');
+                                botaoTocarSomCAP.addEventListener('click', function() {Churchill.play();});
+                            </script>
+                    </div>
+                </div>
+            <li class="item-a">
+                <div class="box">
+                    <p class="marvel">Silas</p>
+                    <img src="https://www.bloonswiki.com/images/thumb/f/ff/BTD6_SilasPortrait.png/1200px-BTD6_SilasPortrait.png"
+                        id="boomerang" alt="hero image" class="model">
+                    <div class="details">
+                        <p>Silas desenvolveu seu comportamento calmo sobrevivendo sozinho em condições adversas.</p>
+                            <audio id="MacacoSilas">
+                                <source src="/Audio/SilasVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm16">
+                                🎈
+                            </button>
+                            <script>
+                                const Silas = document.getElementById('MacacoSilas');
+                                const botaoTocarSomSI = document.getElementById('tocarSOm16');
+                                botaoTocarSomSI.addEventListener('click', function() {Silas.play();});
+                            </script>
+                    </div>
+                </div>
+                <li class="item-a">
+                    <div class="box">
+                        <p class="marvel">Rosalia</p>
+                        <img src="https://www.bloonswiki.com/images/thumb/9/99/BTD6_RosaliaPortrait.png/1200px-BTD6_RosaliaPortrait.png"
+                            id="boomerang" alt="hero image" class="model">
+                        <div class="details">
+                            <p>Rosalia pode se reposicionar em um instante com seu jetpack e traz o poder de fogo com seu laser, lançador de granadas e mísseis.</p>
+                                <audio id="MacacoRosalia">
+                                <source src="/Audio/RosaliaVL.ogg" type="audio/ogg">
+                                SEu navegador é uma bosta!
+                            </audio>
+                            <button id="tocarSOm17">
+                                🎈
+                            </button>
+                            <script>
+                                const Rosalia = document.getElementById('MacacoRosalia');
+                                const botaoTocarSomR = document.getElementById('tocarSOm17');
+                                botaoTocarSomR.addEventListener('click', function() {Rosalia.play();});
+                            </script>
+                        </div>
+                    </div>
+            </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
