@@ -9,6 +9,8 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 </head>
 
+<script> res.header('Content-Security-Policy', "img-src 'self'");</script>
+
 <body>
     <header>
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bloons_TD_6_logo.webp" style="height: 300px; width: 500px;"/>
@@ -16,8 +18,8 @@
             <ul>
                 <li><a href="Units/units.html">Units</a></li>
                 <li><a href="mapa/mapas-beginner.html">Mapas</a></li>
-                <li><a href="/Herois/units2.html">Herois</a></li>
-                <li><a href="/Bloons/Balões.html">Bloons</a></li>
+                <li><a href="Herois/units2.html">Herois</a></li>
+                <li><a href="Bloons/Balões.html">Bloons</a></li>
             </ul>
         </nav>
     </header>
